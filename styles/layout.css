@@ -142,7 +142,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 
 #header h1 a{
 	color:#F3F3F3;
-	background-color:#222222;
+	/*background-color:#222222;*/
 	}
 
 #header p.toggler{
@@ -509,3 +509,9 @@ div.overview{
 	margin:0;
 	padding:0;
 	}
+	
+	
+	
+#wide-header{
+	background:url("manali-bike-flattened-full.jpg") center top no-repeat;
+}
