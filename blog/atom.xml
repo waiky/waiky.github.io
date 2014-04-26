@@ -4,7 +4,7 @@
   <title><![CDATA[Ningsuhen]]></title>
   <link href="http://ningsuhen.github.io/blog/atom.xml" rel="self"/>
   <link href="http://ningsuhen.github.io/blog/"/>
-  <updated>2014-04-26T15:53:56+05:30</updated>
+  <updated>2014-04-26T19:12:39+05:30</updated>
   <id>http://ningsuhen.github.io/blog/</id>
   <author>
     <name><![CDATA[Ningsuhen Waikhom]]></name>
@@ -18,7 +18,142 @@
     <link href="http://ningsuhen.github.io/blog/2014/04/26/first-blog-post-with-octopress/"/>
     <updated>2014-04-26T13:56:12+05:30</updated>
     <id>http://ningsuhen.github.io/blog/2014/04/26/first-blog-post-with-octopress</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>Nothing much to expect guys. This is my first blog post using octopress. If you don&rsquo;t know about octopress, it&rsquo;s a blogging framework for hackers. Today, I&rsquo;m gonna explore the plugins of Octopress.</p>
+
+<p>To test the plugins, I&rsquo;m gonna use them in this post directly. Well, here we go.</p>
+
+<h3>Excerpts</h3>
+
+<p>The plugin allows you to display only a small portion of the post and add a &ldquo;read more&rdquo; link. For that, i need to use a <code>&lt;!&mdash;more&mdash;&gt;</code> tag in the content. Let&rsquo;s try it out. <!--more--></p>
+
+<p>If you saw a link that says &ldquo;Read On&rdquo;, the excerpts plugin is working.</p>
+
+<h3>HTML5 Video Tag</h3>
+
+<p>Next is HTML5 Video Tag. To try this, I&rsquo;m gonna use the video of sintel. One of my favorite independent films.
+Unfortunately, the video is not working for me. It looks like an outdated plugin. Btw, you can watch the movie @ <a href="http://www.sintel.org">www.sintel.org</a>.
+<video width='640' height='380' preload='none' controls poster='http://media.w3.org/2010/05/sintel/poster.png'><source src='http://media.w3.org/2010/05/sintel/trailer.mp4' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'></video></p>
+
+<h3>Image Tag</h3>
+
+<p>Now, I&rsquo;m going to try the image tag.
+<img class="right" src="http://placekitten.com/300/500" width="150" height="250" title="Place Kitten #4" alt="An image of a very cute kitten"></p>
+
+<h3>Block quote</h3>
+
+<p>Another interesting plugin is the Block Quote. You can add a simple quote or tweets, articles,etc. Here we go.</p>
+
+<blockquote><p>Another Interesting reason why our Github Profile matters.</p><footer><strong>@ningsuhen</strong> <cite><a href='https://twitter.com/ningsuhen/status/456334719332790272'>Gramener Rocks</a></cite></footer></blockquote>
+
+
+<h3>Pull quote</h3>
+
+<p><span class='pullquote-right' data-pullquote='We have seen examples of Excerpts, HTML5 Video Tags, Image Tag, Block Quote, Pull Quote.'>
+Pull quote allows you to display text without including them in the html markup. One special use case of a pull quote is when you want to repeat the points of a long article. e.g.
+We have seen examples of Excerpts, HTML5 Video Tags, Image Tag, Block Quote, Pull Quote.
+</span></p>
+
+<h3>Code Blocks</h3>
+
+<p>Here comes the most interesting part. Octopress allows you to insert code blocks without much hassle. Apparently, the additional options &ndash; start, mark &amp; lineos are not available is master branch yet.</p>
+
+<figure class='code'><figcaption><span>Ruby Quick Sort</span><a href='https://gist.githubusercontent.com/ningsuhen/10567944/raw/b16d3e65da4810d1bf24fd231028f3775f7dcede/1_ruby_quicksort.rb'>source  start:2 mark:3,6-9 linenos:false</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1"># Use Gists to store entire functions</span>
+</span><span class='line'><span class="k">class</span> <span class="nc">QuickSort</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="k">def</span> <span class="nc">self</span><span class="o">.</span><span class="nf">sort!</span><span class="p">(</span><span class="n">keys</span><span class="p">)</span>
+</span><span class='line'>    <span class="n">quick</span><span class="p">(</span><span class="n">keys</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="n">keys</span><span class="o">.</span><span class="n">size</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="kp">private</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="k">def</span> <span class="nc">self</span><span class="o">.</span><span class="nf">quick</span><span class="p">(</span><span class="n">keys</span><span class="p">,</span> <span class="n">left</span><span class="p">,</span> <span class="n">right</span><span class="p">)</span>
+</span><span class='line'>    <span class="k">if</span> <span class="n">left</span> <span class="o">&lt;</span> <span class="n">right</span>
+</span><span class='line'>      <span class="n">pivot</span> <span class="o">=</span> <span class="n">partition</span><span class="p">(</span><span class="n">keys</span><span class="p">,</span> <span class="n">left</span><span class="p">,</span> <span class="n">right</span><span class="p">)</span>
+</span><span class='line'>      <span class="n">quick</span><span class="p">(</span><span class="n">keys</span><span class="p">,</span> <span class="n">left</span><span class="p">,</span> <span class="n">pivot</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+</span><span class='line'>      <span class="n">quick</span><span class="p">(</span><span class="n">keys</span><span class="p">,</span> <span class="n">pivot</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">right</span><span class="p">)</span>
+</span><span class='line'>    <span class="k">end</span>
+</span><span class='line'>    <span class="n">keys</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="k">def</span> <span class="nc">self</span><span class="o">.</span><span class="nf">partition</span><span class="p">(</span><span class="n">keys</span><span class="p">,</span> <span class="n">left</span><span class="p">,</span> <span class="n">right</span><span class="p">)</span>
+</span><span class='line'>    <span class="n">x</span> <span class="o">=</span> <span class="n">keys</span><span class="o">[</span><span class="n">right</span><span class="o">]</span>
+</span><span class='line'>    <span class="n">i</span> <span class="o">=</span> <span class="n">left</span><span class="o">-</span><span class="mi">1</span>
+</span><span class='line'>    <span class="k">for</span> <span class="n">j</span> <span class="k">in</span> <span class="n">left</span><span class="o">.</span><span class="n">.right</span><span class="o">-</span><span class="mi">1</span>
+</span><span class='line'>      <span class="k">if</span> <span class="n">keys</span><span class="o">[</span><span class="n">j</span><span class="o">]</span> <span class="o">&lt;=</span> <span class="n">x</span>
+</span><span class='line'>        <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+</span><span class='line'>        <span class="n">keys</span><span class="o">[</span><span class="n">i</span><span class="o">]</span><span class="p">,</span> <span class="n">keys</span><span class="o">[</span><span class="n">j</span><span class="o">]</span> <span class="o">=</span> <span class="n">keys</span><span class="o">[</span><span class="n">j</span><span class="o">]</span><span class="p">,</span> <span class="n">keys</span><span class="o">[</span><span class="n">i</span><span class="o">]</span>
+</span><span class='line'>      <span class="k">end</span>
+</span><span class='line'>    <span class="k">end</span>
+</span><span class='line'>    <span class="n">keys</span><span class="o">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="o">]</span><span class="p">,</span> <span class="n">keys</span><span class="o">[</span><span class="n">right</span><span class="o">]</span> <span class="o">=</span> <span class="n">keys</span><span class="o">[</span><span class="n">right</span><span class="o">]</span><span class="p">,</span> <span class="n">keys</span><span class="o">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="o">]</span>
+</span><span class='line'>    <span class="n">i</span><span class="o">+</span><span class="mi">1</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>Gist Tag</h3>
+
+<p>Another feature you will love is the Gist Tag. You can insert a gist by specifying the gist id.</p>
+
+<div><script src='https://gist.github.com/10567944.js?file=0_reuse_code.js'></script>
+<noscript><pre><code>// Use Gists to store code you would like to remember later on
+console.log(window); // log the &quot;window&quot; object to the console
+</code></pre></noscript></div>
+
+
+<h3>Include Code</h3>
+
+<p>This one allows you to embed code from a file in your system.</p>
+
+<figure class='code'><figcaption><span>Main Site index.html  start:1 end:50 range:3-20 mark:5,10-20 linenos:false (test.js)</span> <a href='http://ningsuhen.github.io/blog/downloads/code/test.js'>download</a></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'>alert(&quot;hello world&quot;);
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>Render Partial</h3>
+
+<p>Render Partial allows embedding of any file into the blog post.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Testing hello world from render partial
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>That wasn&rsquo;t so bad. Sharing code is so easy now. Well, if you are a hacker or a programmer, i recommend you to try it right away. You can start your own blog with 0 investment. And it does make your life easier.</p>
 ]]></content>
   </entry>
   
