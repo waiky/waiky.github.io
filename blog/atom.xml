@@ -4,7 +4,7 @@
   <title><![CDATA[Ningsuhen]]></title>
   <link href="http://ningsuhen.github.io/blog/atom.xml" rel="self"/>
   <link href="http://ningsuhen.github.io/blog/"/>
-  <updated>2014-04-26T19:41:11+05:30</updated>
+  <updated>2014-04-26T20:06:29+05:30</updated>
   <id>http://ningsuhen.github.io/blog/</id>
   <author>
     <name><![CDATA[Ningsuhen Waikhom]]></name>
@@ -18,9 +18,9 @@
     <link href="http://ningsuhen.github.io/blog/2014/04/26/first-blog-post-with-octopress/"/>
     <updated>2014-04-26T13:56:12+05:30</updated>
     <id>http://ningsuhen.github.io/blog/2014/04/26/first-blog-post-with-octopress</id>
-    <content type="html"><![CDATA[<p>Nothing much to expect guys. This is my first blog post using octopress. If you don&rsquo;t know about octopress, it&rsquo;s a blogging framework for hackers. Today, I&rsquo;m gonna explore the plugins of Octopress.</p>
+    <content type="html"><![CDATA[<p>Nothing much to expect guys. This is my first blog post using octopress. If you don&rsquo;t know about octopress, it&rsquo;s a blogging framework for hackers. Today, I&rsquo;m going to explore the plugins of Octopress.</p>
 
-<p>To test the plugins, I&rsquo;m gonna use them in this post directly. Well, here we go.</p>
+<p>To test the plugins, I&rsquo;ll use them in this post directly. Here we go.</p>
 
 <h3>Excerpts</h3>
 
@@ -55,7 +55,7 @@ We have seen examples of Excerpts, HTML5 Video Tags, Image Tag, Block Quote, Pul
 
 <h3>Code Blocks</h3>
 
-<p>Here comes the most interesting part. Octopress allows you to insert code blocks without much hassle. Apparently, the additional options &ndash; start, mark &amp; lineos are not available is master branch yet.</p>
+<p>Here comes the most interesting part. Octopress allows you to insert code blocks without much hassle. Apparently, the additional options &ndash; start, mark &amp; lineos are not available in master branch yet.</p>
 
 <figure class='code'><figcaption><span>Ruby Quick Sort</span><a href='https://gist.githubusercontent.com/ningsuhen/10567944/raw/b16d3e65da4810d1bf24fd231028f3775f7dcede/1_ruby_quicksort.rb'>source  start:2 mark:3,6-9 linenos:false</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
