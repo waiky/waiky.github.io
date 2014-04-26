@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Ningsuhen]]></title>
+  <link href="http://ningsuhen.github.io/blog/atom.xml" rel="self"/>
+  <link href="http://ningsuhen.github.io/blog/"/>
+  <updated>2014-04-26T15:53:56+05:30</updated>
+  <id>http://ningsuhen.github.io/blog/</id>
+  <author>
+    <name><![CDATA[Ningsuhen Waikhom]]></name>
+    <email><![CDATA[ningsuhen@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[First blog post with Octopress]]></title>
+    <link href="http://ningsuhen.github.io/blog/2014/04/26/first-blog-post-with-octopress/"/>
+    <updated>2014-04-26T13:56:12+05:30</updated>
+    <id>http://ningsuhen.github.io/blog/2014/04/26/first-blog-post-with-octopress</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+</feed>
