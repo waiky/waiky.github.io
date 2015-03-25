@@ -265,6 +265,7 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
+    background-color: #000000;
     background-attachment: scroll;
     background-image: url(../img/Ningsuhen-Waikhom-@-Manali-with-Bullet-1900x1250-overlay.png);
     background-position: center center;
