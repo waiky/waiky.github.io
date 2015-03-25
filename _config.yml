@@ -1,0 +1,50 @@
+url: https://ningsuhen.github.io
+baseurl:
+
+# Site settings
+title: ningsuhen.github.io
+email: ningsuhen@waikhom.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: fed136
+  secondary: fec503  
+  secondary-dark: 333
+
+# Team names, titles and social links
+people:
+- name: Ningsuhen Waikhom
+  pic: Ningsuhen Waikhom Gravatar.png
+  position: Developer
+  social:
+    - title: twitter
+      url: https://twitter.com/ningsuhen
+    - title: facebook
+      url: https://www.facebook.com/ningsuhen
+    - title: stack-overflow
+      url: http://stackoverflow.com/users/3478034/nwk
+
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/ningsuhen
+  - title: facebook
+    url: https://www.facebook.com/ningsuhen
+  - title: stack-overflow
+    url: http://stackoverflow.com/users/3478034/nwk
+  - title: bitbucket 
+    url: http://bitbucket.org/ningsuhen
+  - title: github
+    url: http://github.com/ningsuhen
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: B-21, First Floor
+  - line: Sector 39, Noida
+  - line: Uttar Pradesh, India - 201301
+
+# Build settings
+markdown: kramdown
+permalink: pretty
