@@ -1,15 +1,16 @@
 ---
-title: Round Icons
-subtitle: Graphic Design
+title: NASA 07
+subtitle: Web Development
 layout: default
-modal-id: 6
-date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
+modal-id: 1
+date: 2007-12-15
+img: NASA-2007-Homepage.png
+thumbnail: NASA-2007-Homepage-thumbnail.png
+alt: NASA 2007 Homepage
+project-date: Dec 2007
+client: MANIT Bhopal Architecture Dept
+client-url: http://www.manit.ac.in
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: The official website of the NASA 2007 Annual Event held at MANIT Bhopal. 
 
 ---
