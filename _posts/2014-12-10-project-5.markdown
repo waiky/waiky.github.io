@@ -1,0 +1,16 @@
+---
+title: NewPhonebook
+subtitle: Mobile App Development
+layout: default
+modal-id: 5
+date: 2014-12-10
+img: NewPhonebook-Screenshot.png
+thumbnail: NewPhonebook-Screenshot-thumbnail.png
+alt: NewPhonebook Homepage Screenshot
+project-date: Dec 2014
+client: NewPhonebook
+client-url: http://www.newphonebook.io
+category: Mobile App Development
+description: An Advanced Phone App for iOS with various built-in tools for contact management. 
+
+---

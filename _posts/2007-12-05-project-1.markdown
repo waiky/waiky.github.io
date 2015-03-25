@@ -9,7 +9,7 @@ thumbnail: NASA-2007-Homepage-thumbnail.png
 alt: NASA 2007 Homepage
 project-date: Dec 2007
 client: MANIT Bhopal Architecture Dept
-client-url: http://www.manit.ac.in
+client-url: http://www.manit.ac.in/manitbpl/index.php?option=com_content&view=article&id=79&Itemid=160
 category: Web Development
 description: The official website of the NASA 2007 Annual Event held at MANIT Bhopal. 
 

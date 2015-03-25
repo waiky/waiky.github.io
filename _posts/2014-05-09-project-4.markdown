@@ -1,0 +1,16 @@
+---
+title: Lukup.me
+subtitle: Web Development
+layout: default
+modal-id: 4
+date: 2014-05-09
+img: Lukup.me.png
+thumbnail: Lukup.me-thumbnail.png
+alt: Lukup.me Homepage Screenshot
+project-date: May 2014
+client: Treepie Technologies Pvt. Ltd.
+client-url: http://lukup.me
+category: Web Development
+description: A web application for unique Online Identification. 
+
+---

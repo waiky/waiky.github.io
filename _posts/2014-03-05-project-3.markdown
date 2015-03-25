@@ -1,0 +1,16 @@
+---
+title: Adobe SuperSmash
+subtitle: Web Development
+layout: default
+modal-id: 3
+date: 2014-03-05
+img: Adobe-SuperSmash-Portal.png
+thumbnail: Adobe-SuperSmash-Portal-Thumbnail.png
+alt: Adobe SuperSmash Screenshot
+project-date: March 2014
+client: Self (Organizer)
+client-url: #
+category: Web Development
+description: A web application for Adobe Table Tennis Tournament 2014 
+
+---
