@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+Disallow: /web development
+Disallow: /mobile app development
