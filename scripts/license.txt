@@ -1,4 +1,0 @@
-
-Mootools.js website: http://mootools.net/
-
-Mootools.js Licence: http://www.opensource.org/licenses/mit-license.php
