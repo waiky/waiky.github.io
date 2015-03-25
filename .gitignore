@@ -2,3 +2,4 @@
 ### Jekyll template
 _site/
 .idea
+_asset_bundler_cache
