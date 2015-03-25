@@ -26,6 +26,8 @@ people:
       url: http://stackoverflow.com/users/3478034/nwk
     - title: download
       url: files/ningsuhenwaikhom-resume.pdf
+    - title: wordpress
+      url: http://waikhom.me
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
@@ -40,6 +42,8 @@ social:
     url: http://bitbucket.org/ningsuhen
   - title: github
     url: http://github.com/ningsuhen
+  - title: wordpress
+    url: http://waikhom.me
 
 # Postal address (add as many lines as necessary)
 address:
