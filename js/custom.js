@@ -101,9 +101,6 @@ var customScripts = {
         customScripts.slider();
         customScripts.owlSlider();
         customScripts.bannerHeight();
-        $(function() {
-            $("img.lazy").lazyload();
-        });
     }
 }
 $('document').ready(function () {
