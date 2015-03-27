@@ -10,7 +10,9 @@ alt: Lukup.me Homepage Screenshot
 project-date: May 2014
 client: Treepie Technologies Pvt. Ltd.
 client-url: http://lukup.me
-category: Web Development
+category: 
+- Web Development
+- Mobile App Development
 description: A web application for unique Online Identification. 
 
 ---

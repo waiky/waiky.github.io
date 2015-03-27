@@ -32,24 +32,35 @@ people:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/ningsuhen
   - title: twitter
     url: https://twitter.com/ningsuhen
   - title: facebook
     url: https://www.facebook.com/ningsuhen
+  - title: google-plus
+    url: https://plus.google.com/+WaikhomNingsuhen
   - title: stack-overflow
     url: http://stackoverflow.com/users/3478034/nwk
-  - title: bitbucket 
-    url: http://bitbucket.org/ningsuhen
+#  - title: bitbucket
+#    url: http://bitbucket.org/ningsuhen
   - title: github
     url: http://github.com/ningsuhen
+  - title: download
+    url: files/ningsuhenwaikhom-resume.pdf
   - title: wordpress
     url: http://waikhom.me
+  - title: youtube
+    url: https://www.youtube.com/user/ningsuhen
 
 # Postal address (add as many lines as necessary)
 address:
   - line: B-21, First Floor
   - line: Sector 39, Noida
   - line: Uttar Pradesh, India - 201301
+
+phone: +919899386296
+
 
 # Build settings
 markdown: kramdown
@@ -73,3 +84,57 @@ assets:
   compress:
     css:  sass
     js:   uglifier
+
+skills:
+  programming:
+    - name: Nodejs
+      value: 90
+    - name: Python
+      value: 80
+    - name: PHP
+      value: 80
+    - name: Javascript
+      value: 90
+    - name: HTML/CSS
+      value: 90
+    - name: Java
+      value: 60
+    - name: Ruby
+      value: 30
+    - name: Objective-C
+      value: 40
+    - name: Swift
+      value: 60
+    - name: Bash/Shell
+      value: 60
+    - name: MySQL
+      value: 80
+    - name: MongoDB
+      value: 70
+  others:
+    - name: Photoshop
+      value: 70
+    - name: Illustrator
+      value: 40
+    - name: Unity
+      value: 30
+    - name: Blender
+      value: 30
+    - name: Linux
+      value: 80
+    - name: AWS Services
+      value: 60
+    - name: Apache/Nginx
+      value: 80
+    - name: Jenkins
+      value: 90
+    - name: Adobe CQ5
+      value: 50
+    - name: Chef
+      value: 70
+    - name: Capistrano
+      value: 50
+
+
+
+
