@@ -78,17 +78,7 @@ asset_bundler:
   bundle_name: false
   markup_templates:
     js: "<script type='text/javascript' async src='{{url}}'></script>\n"
-    css: "<script>
-            var cb = function() {
-              var l = document.createElement('link'); l.rel = 'stylesheet';
-              l.href = '{{url}}';
-              var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
-            };
-            var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-                webkitRequestAnimationFrame || msRequestAnimationFrame;
-            if (raf) raf(cb);
-            else window.addEventListener('load', cb);
-          </script>"
+    css: "<noscript><link type='text/css' media='all' href='{{url}}' rel='stylesheet' /></noscript><script>function lCss(url,media) {var d=document;var l=d.createElement('link');l.rel='stylesheet';l.type='text/css';l.href=url;l.media=media; d.getElementsByTagName('head')[0].appendChild(l);}function deferredCSS() {lCss('{{url}}','all');}if(window.addEventListener){window.addEventListener('DOMContentLoaded',deferredCSS,false);}else{window.onload = deferredCSS;}</script>"
 
 assets:
   compress:
