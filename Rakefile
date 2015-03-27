@@ -6,7 +6,11 @@ require "jekyll"
 
 
 # Change your GitHub reponame
-GITHUB_REPONAME = "ningsuhen/ningsuhen.github.io"
+GITHUB_USERNAME = "ningsuhen"
+GITHUB_REPONAME = "ningsuhen.github.io"
+
+GITHUB_REPOPATH = "#{GITHUB_USERNAME}/#{GITHUB_REPONAME}"
+TMP_PATH = "/Users/ningsuhen/.tmp/"
 
 
 desc "Generate blog files"
@@ -20,19 +24,20 @@ end
 
 desc "Generate and publish blog to gh-pages"
 task :publish => [:generate] do
-  Dir.mktmpdir do |tmp|
-    cp_r "_site/.", tmp
-
+    mkpath TMP_PATH
     pwd = Dir.pwd
-    Dir.chdir tmp
+    Dir.chdir TMP_PATH
+    system "git clone git@github.com:#{GITHUB_REPOPATH}.git"
+    Dir.chdir pwd
+    cp_r "_site/.", "#{TMP_PATH}/#{GITHUB_REPONAME}/", :remove_destination => true
 
-    system "git init"
+    Dir.chdir "#{TMP_PATH}/#{GITHUB_REPONAME}/"
+
     system "git add ."
     message = "Site updated at #{Time.now.utc}"
     system "git commit -m #{message.inspect}"
-    system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
-    system "git push origin master --force"
+    system "git push origin master"
 
     Dir.chdir pwd
-  end
+  #end
 end
