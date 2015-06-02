@@ -1,0 +1,16 @@
+---
+title: JustMove (WalkOn Social) 
+subtitle: Backend/Frontend App Development
+layout: default
+modal-id: 6
+date: 2015-03-31
+img: JustMove-Portal.png
+thumbnail: JustMove-Portal-Thumbnail.png
+alt: JustMove Dashboard
+project-date: March 2015
+client: MyHealthMate
+client-url: http://myhealthmate.in
+category: Web Development
+description: A free mobile app encouraging users to walk more for a cause
+
+---
