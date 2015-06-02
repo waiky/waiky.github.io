@@ -2,7 +2,7 @@ url: https://ningsuhen.github.io
 baseurl:
 
 # Site settings
-title: ningsuhen.github.io
+title: Ningsuhen Waikhom
 email: ningsuhen@waikhom.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
@@ -52,6 +52,10 @@ social:
     url: http://waikhom.me
   - title: youtube
     url: https://www.youtube.com/user/ningsuhen
+  - title: vimeo-square
+    url: https://vimeo.com/ningsuhen
+  - title: skype
+    url: skype:ningsuhen?call
 
 # Postal address (add as many lines as necessary)
 address:
@@ -77,7 +81,7 @@ asset_bundler:
   dev: false
   bundle_name: false
   markup_templates:
-    js: "<script type='text/javascript' async src='{{url}}'></script>\n"
+    js: "<script type='text/javascript' src='{{url}}'></script>\n"
     css: "<noscript><link type='text/css' media='all' href='{{url}}' rel='stylesheet' /></noscript><script>function lCss(url,media) {var d=document;var l=d.createElement('link');l.rel='stylesheet';l.type='text/css';l.href=url;l.media=media; d.getElementsByTagName('head')[0].appendChild(l);}function deferredCSS() {lCss('{{url}}','all');}if(window.addEventListener){window.addEventListener('DOMContentLoaded',deferredCSS,false);}else{window.onload = deferredCSS;}</script>"
 
 assets:
@@ -86,15 +90,15 @@ assets:
     js:   uglifier
 
 skills:
-  programming:
+  programming:    
     - name: Nodejs
-      value: 90
-    - name: Python
+      value: 85
+    - name: Javascript
       value: 80
+    - name: Python
+      value: 60
     - name: PHP
       value: 80
-    - name: Javascript
-      value: 90
     - name: HTML/CSS
       value: 90
     - name: Java
@@ -106,12 +110,21 @@ skills:
     - name: Swift
       value: 60
     - name: Bash/Shell
-      value: 60
+      value: 50
     - name: MySQL
       value: 80
     - name: MongoDB
-      value: 70
+      value: 80
+    - name: RabbitMQ
+      value: 50
+
   others:
+    - name: Docker
+      value: 50
+    - name: Chef
+      value: 70
+    - name: Capistrano
+      value: 50
     - name: Photoshop
       value: 70
     - name: Illustrator
@@ -121,20 +134,15 @@ skills:
     - name: Blender
       value: 30
     - name: Linux
-      value: 80
+      value: 85
     - name: AWS
-      value: 60
+      value: 70
     - name: Apache/Nginx
       value: 80
     - name: Jenkins
-      value: 90
+      value: 95
     - name: Adobe CQ5
       value: 50
-    - name: Chef
-      value: 70
-    - name: Capistrano
-      value: 50
-
 
 
 
