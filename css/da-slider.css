@@ -104,7 +104,7 @@
     position: absolute;
     text-align: center;
     left: 0;
-    bottom: 20;
+    bottom: 20px;
     z-index: 2000;
     -moz-user-select: none;
     -webkit-user-select: none
