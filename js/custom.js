@@ -94,6 +94,19 @@ var customScripts = {
             $('#da-slider').height(bHeight);
         });
     },
+    lazyLoad:function(){
+      $(function() {
+        $("img.lazy").lazyload({
+          event : "sporty"
+        });
+      });
+
+      $(window).bind("load", function() {
+        var timeout = setTimeout(function() {
+          $("img.lazy").trigger("sporty")
+        }, 1000);
+      });
+    },
     init: function () {
         customScripts.onePageNav();
         customScripts.profile();
@@ -101,6 +114,7 @@ var customScripts = {
         customScripts.slider();
         customScripts.owlSlider();
         customScripts.bannerHeight();
+        customScripts.lazyLoad();
     }
 }
 $('document').ready(function () {
